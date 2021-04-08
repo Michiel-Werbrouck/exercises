@@ -10,5 +10,6 @@ def remove_comments(filename):
     with open(filename, 'w') as file:
         file.write(contents)
 
+
 for file in sys.argv[1:]:
     remove_comments(file)
